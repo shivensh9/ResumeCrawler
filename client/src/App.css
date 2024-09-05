@@ -1,0 +1,69 @@
+.error {
+    color: red;
+    margin: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
+
+.border-style {
+    border: solid 2px gray;
+    border-style: dashed;
+    cursor: pointer;
+    border-color: rgb(119 179 171)
+}
+
+.image-previews {
+    display: flex;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.inner {
+    cursor: pointer;
+    position: relative;
+}
+
+.display-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(119 179 171);
+    object-fit: cover;
+}
+
+.resume-list {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+}
+
+.resume-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px 20px;
+    background: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.resume-card p {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #32726a;
+    word-wrap: break-word;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin: 0px auto 20px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    max-width: 100%;
+}
