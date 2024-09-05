@@ -1,4 +1,1 @@
-# resumecrawler
-# resumecrawler
-# ResumeCrawler
-# ResumeCrawler
+The Applicant GitHub Analyzer is a tool designed to streamline the process of evaluating applicants' technical skills based on their GitHub profiles. It extracts GitHub links from resumes, fetches user statistics through the GitHub API, and generates a comparative analysis of applicants based on their experience and proficiency with selected technologies and frameworks. This project aims to automate the initial screening process for technical roles, offering insights into applicants' coding activity, contributions, and repositories.
